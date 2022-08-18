@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.write("""
 # Machine Learning Hyperparameter Tuning Demo
 ### **(Heart Disease Prediction Model)**""")
-df = pd.read_csv('https://github.com/SueGK/Machine-Learning-Hyperparameter-Tuning-Demo/blob/main/heart.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/SueGK/Machine-Learning-Hyperparameter-Tuning-Demo/blob/main/heart.csv')
 st.subheader('Dataset')
 st.markdown('First 5 lines of dataset')
 st.write(df.head(5))
