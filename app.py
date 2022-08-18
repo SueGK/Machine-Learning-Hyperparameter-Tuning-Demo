@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.write("""
 # Machine Learning Hyperparameter Tuning Demo
 ### **(Heart Disease Prediction Model)**""")
-url ='https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/download?datasetVersionNumber=2'
+url ='https://raw.githubusercontent.com/SueGK/Machine-Learning-Hyperparameter-Tuning-Demo/blob/main/heart.csv'
 df = pd.read_csv(url)
 st.subheader('Dataset')
 st.markdown('First 5 lines of dataset')
