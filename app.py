@@ -18,7 +18,7 @@ st.write("""
 # Machine Learning Hyperparameter Tuning Demo
 ### **(Heart Disease Prediction Model)**""")
 url ='https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset/download?datasetVersionNumber=2'
-df = pd.read_csv('url')
+df = pd.read_csv(url)
 st.subheader('Dataset')
 st.markdown('First 5 lines of dataset')
 st.write(df.head(5))
