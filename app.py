@@ -17,7 +17,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.write("""
 # Machine Learning Hyperparameter Tuning Demo
 ### **(Heart Disease Prediction Model)**""")
-df = pd.read_csv('heart.csv')
+df = pd.read_csv('https://github.com/SueGK/Machine-Learning-Hyperparameter-Tuning-Demo/blob/main/heart.csv')
 st.subheader('Dataset')
 st.markdown('First 5 lines of dataset')
 st.write(df.head(5))
@@ -36,7 +36,7 @@ parameter_n_estimators_step = st.sidebar.number_input('n_estimators stride', 10)
 
 st.sidebar.write('---')
 parameter_max_features =st.sidebar.multiselect(
-                '(你可以选择多个选项)',
+                '(You can choose multiple options)',
                 ['auto', 'sqrt', 'log2'],
                 ['auto'])
 
